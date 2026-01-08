@@ -1,0 +1,4359 @@
+{
+  "count": 154,
+  "questions": [
+    {
+      "id": 1,
+      "questionNo": 1,
+      "question": "This question requires that you evaluate the underlined text to determine if it is correct. You have a Power Apps app. You create a new version of the app and then publish the new version. A customer goes through the process of restoring the previous version of the app. In the Version tab for the app, you will see two versions of the app. Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select the answer choice that makes the statement correct.",
+      "options": [
+        {
+          "id": "A",
+          "text": "No change is needed."
+        },
+        {
+          "id": "B",
+          "text": "one"
+        },
+        {
+          "id": "C",
+          "text": "three"
+        },
+        {
+          "id": "D",
+          "text": "four"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 2,
+      "questionNo": 2,
+      "question": "A company uses Dynamics 365 Sales. The company uses a browser-based app named Sales Hub. You need to ensure that users can access data from mobile devices. Which app should users install?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 Remote Assist"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 Finance"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 Business Central"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365 for Phones"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 3,
+      "questionNo": 3,
+      "question": "You are a customer service manager. You need to implement a Power Apps portal that allows customers to submit cases. Which type of data source is used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 Connector"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft SharePoint"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Azure Storage"
+        },
+        {
+          "id": "D",
+          "text": "Common Data Service"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 6,
+      "questionNo": 6,
+      "question": "A distribution company has multiple warehouses. Tax rates charged on sales orders need to be calculated based on locality and region. You need to recommend a cost-effective solution that can be implemented quickly. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Check AppSource for a tax add-on."
+        },
+        {
+          "id": "B",
+          "text": "Create alerts in Dynamics 365 Finance for tax table changes."
+        },
+        {
+          "id": "C",
+          "text": "Implement the Common Data Model."
+        },
+        {
+          "id": "D",
+          "text": "Run a Power BI report."
+        },
+        {
+          "id": "E",
+          "text": "Write scripts and code tax updates."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 9,
+      "questionNo": 9,
+      "question": "You need to implement Microsoft Business Applications along with the Microsoft Power platform. Which three Microsoft products are part of the Power platform? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps"
+        },
+        {
+          "id": "B",
+          "text": "Azure Active Directory"
+        },
+        {
+          "id": "C",
+          "text": "Power Automate"
+        },
+        {
+          "id": "D",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "E",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 11,
+      "questionNo": 11,
+      "question": "A large retail company implements Power Apps, Microsoft Flow, and the Common Data Service. The board of directors is asking whether users are finding value in the technology. The company would like to measure and report usage of the software. You need to recommend a tool to determine software usage. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Intune"
+        },
+        {
+          "id": "B",
+          "text": "Azure Stream Analytics"
+        },
+        {
+          "id": "C",
+          "text": "Power Platform Analytics"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365 Product Insights"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 19,
+      "questionNo": 19,
+      "question": "A company uses Power Platform. You must ensure that users cannot share customer data with other users. You must also ensure that uses cannot connect to data sources unless you grant the user explicit permissions to access a data source. You need to recommend solutions to meet the company's security requirements. Which two types of policies should you recommend? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Office cloud policies"
+        },
+        {
+          "id": "B",
+          "text": "Group Policy Objects"
+        },
+        {
+          "id": "C",
+          "text": "environment-level policies"
+        },
+        {
+          "id": "D",
+          "text": "tenant-level policies"
+        },
+        {
+          "id": "E",
+          "text": "preset security policies"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 23,
+      "questionNo": 23,
+      "question": "A company is creating a canvas app to track and analyze customer visits to their retail stores. Data about customer visits is stored on-premises at each retail store location. The app must display data about customer visits when users launch the app. You need to ensure that the data is available for consumption by the app. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Connector"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "C",
+          "text": "Data source"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate"
+        },
+        {
+          "id": "E",
+          "text": "Data gateway"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "multi": false
+    },
+    {
+      "id": 25,
+      "questionNo": 25,
+      "question": "A company currently does not separate testing, development and production as per standard Application Lifecycle Management (ALM) protocol. The company uses Power Apps for accounting and sales processes. The company needs to use only one login account per user. The company also must prevent development and testing from impacting production. You need to implement a solution to meet the requirements. Which method should you select?",
+      "options": [
+        {
+          "id": "A",
+          "text": "separate environments"
+        },
+        {
+          "id": "B",
+          "text": "separate tenants"
+        },
+        {
+          "id": "C",
+          "text": "separate Microsoft Azure Storage Blobs"
+        },
+        {
+          "id": "D",
+          "text": "separate connectors"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 29,
+      "questionNo": 29,
+      "question": "A company is evaluating ways that they can implement AI Builder. For which two scenarios can you use AI Builder? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send emails to all users who subscribe to a service."
+        },
+        {
+          "id": "B",
+          "text": "Synchronize data from an external database."
+        },
+        {
+          "id": "C",
+          "text": "Collect data from several data sources and display a dashboard that shows trending data."
+        },
+        {
+          "id": "D",
+          "text": "Interpret images and perform an action based on the image."
+        },
+        {
+          "id": "E",
+          "text": "Detect patterns in data and predict outcomes."
+        }
+      ],
+      "answer": [
+        "D",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 33,
+      "questionNo": 33,
+      "question": "A company plans to use AI Builder to help improve business performance. You need to determine which AI Models are available for use. Which three types of models can you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "linear regression"
+        },
+        {
+          "id": "B",
+          "text": "prediction"
+        },
+        {
+          "id": "C",
+          "text": "object detection"
+        },
+        {
+          "id": "D",
+          "text": "anomaly detection"
+        },
+        {
+          "id": "E",
+          "text": "text classification"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 34,
+      "questionNo": 34,
+      "question": "A company uses Microsoft 365 and Dynamics 365 Sales. The company does not have any developers on its staff. You need to explain to the executives the benefits of using Power Platform apps. What are two benefits? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Users can send emails from Dynamics 365 Sales to their personal email addresses."
+        },
+        {
+          "id": "B",
+          "text": "Users can create Power Apps to create apps for different departments."
+        },
+        {
+          "id": "C",
+          "text": "Users can use Power Automate to share information between Microsoft 365 and Dynamics 365 Sales."
+        },
+        {
+          "id": "D",
+          "text": "The company can unify all the mobile devices to one vendor."
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 36,
+      "questionNo": 36,
+      "question": "A company uses Dynamics 365 Supply Chain Management and Dynamics 365 Finance. User account data must be synchronized between the two systems. You need to ensure that the synchronized data is stored in one place. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Azure IoT Central"
+        },
+        {
+          "id": "B",
+          "text": "Azure Active Directory"
+        },
+        {
+          "id": "C",
+          "text": "SQL Server"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Dataverse"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 37,
+      "questionNo": 37,
+      "question": "What is a benefit of deploying Microsoft 365 and Dynamics 365 apps in the same tenant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use Common Data Services to connect to application data."
+        },
+        {
+          "id": "B",
+          "text": "You only need to set up groups in Microsoft 365 for permissions to all data."
+        },
+        {
+          "id": "C",
+          "text": "Users can access both Microsoft 365 and Dynamics 365 by using Single Sign-on (SSO)."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 47,
+      "questionNo": 47,
+      "question": "A company is building apps to support their business operations. The apps will use connectors to access data from several data sources and respond to a number of events generated by components. Which two operations can you use for connectors? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Actions"
+        },
+        {
+          "id": "B",
+          "text": "Plug-ins"
+        },
+        {
+          "id": "C",
+          "text": "Gateways"
+        },
+        {
+          "id": "D",
+          "text": "Triggers"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 48,
+      "questionNo": 48,
+      "question": "You are a sales manager for a large retail organization. You are creating a Power Apps app that will display customer product purchase information from your old point- of-sale (POS) system and need to link those sales to the customer accounts and product sales in Dynamics 365 Commerce. You need to use the appropriate component. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "B",
+          "text": "business process flow"
+        },
+        {
+          "id": "C",
+          "text": "entity metadata"
+        },
+        {
+          "id": "D",
+          "text": "business rule"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 49,
+      "questionNo": 49,
+      "question": "You create a Power Virtual Agents chatbot. You need to share the bot with other team members so that they can try out the bot before you share the bot with customers. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "demo website"
+        },
+        {
+          "id": "B",
+          "text": "live production website"
+        },
+        {
+          "id": "C",
+          "text": "test chat feature"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 52,
+      "questionNo": 52,
+      "question": "You create a business rule on contact entity to enforce the requirement that users must enter either a telephone number, fax number, or an email when creating a new record. The company decides to remove fax number from the condition. You need to update the business rule. What are two ways of achieving the goal? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Save a copy of the rule and change the condition. Deactivate and delete the original rule."
+        },
+        {
+          "id": "B",
+          "text": "Deactivate the business rule and change the condition."
+        },
+        {
+          "id": "C",
+          "text": "Take a snapshot of the business rule and change the condition."
+        },
+        {
+          "id": "D",
+          "text": "Change the condition and activate the change."
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 54,
+      "questionNo": 54,
+      "question": "A coworker is creating an app in Power Apps and needs to automatically synchronize data from an external source. The coworker is unable to locate a suitable Microsoft approved connector template in AppSource. You need to recommend a solution for the coworker. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a custom connector."
+        },
+        {
+          "id": "B",
+          "text": "Ask the outside source to send you the data once a week."
+        },
+        {
+          "id": "C",
+          "text": "Use Power Automate to connect to the database."
+        },
+        {
+          "id": "D",
+          "text": "Open a ticket with Microsoft and request a new connector."
+        },
+        {
+          "id": "E",
+          "text": "Use Microsoft Azure Service Bus."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 55,
+      "questionNo": 55,
+      "question": "A toy company creates a text classification model in AI Builder to monitor customer feedback for specific key words. When negative feedback is received for a toy, the company wants to proactively perform engineering reviews for the toy and schedule additional training sessions for workers who produce the toy. What are two possible ways to achieve the goal? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a canvas app."
+        },
+        {
+          "id": "B",
+          "text": "Implement the Virtual Agent."
+        },
+        {
+          "id": "C",
+          "text": "Build a Power Automate flow."
+        },
+        {
+          "id": "D",
+          "text": "Use the Common Data Model."
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 59,
+      "questionNo": 59,
+      "question": "You need to display sales orders greater than a specific threshold in a Power BI report. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "filter"
+        },
+        {
+          "id": "B",
+          "text": "Power Query"
+        },
+        {
+          "id": "C",
+          "text": "Common Data Service"
+        },
+        {
+          "id": "D",
+          "text": "connector"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 60,
+      "questionNo": 60,
+      "question": "You are a sales representative. You create a Power BI report to visualize data from a Microsoft Excel workbook. Users need to be able to view and share the report. Which two actions should you perform? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Pin the report to a dashboard."
+        },
+        {
+          "id": "B",
+          "text": "Export the data."
+        },
+        {
+          "id": "C",
+          "text": "Publish the dashboard."
+        },
+        {
+          "id": "D",
+          "text": "Share the dashboard."
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 64,
+      "questionNo": 64,
+      "question": "You create a Power BI dashboard that displays data from Dynamics 365 Customer Engagement. You need to share the Power BI dashboard with coworkers. What are three possible ways to achieve the goal? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a Power BI workspace and grant coworkers permissions."
+        },
+        {
+          "id": "B",
+          "text": "Publish the dashboard as an app to your coworkers."
+        },
+        {
+          "id": "C",
+          "text": "Export the data into Common Data Service for others to manipulate in Power BI."
+        },
+        {
+          "id": "D",
+          "text": "Export the data to Microsoft Excel for coworkers to import and view in Power BI."
+        },
+        {
+          "id": "E",
+          "text": "Embed reports in your company's internal web portal."
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 65,
+      "questionNo": 65,
+      "question": "Your company has an on-premises Microsoft SQL Server database that contains legacy sales data. You must display information from the database in a new Power Apps app. You need to establish a secure connection between the database and the app. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data source"
+        },
+        {
+          "id": "B",
+          "text": "App"
+        },
+        {
+          "id": "C",
+          "text": "Data gateway"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 66,
+      "questionNo": 66,
+      "question": "A recent update has been made to a canvas app. The update causes usability issues. You need to roll back the app to a previous version. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Restore the previous version of the app."
+        },
+        {
+          "id": "B",
+          "text": "Uninstall the app for all users and reinstall by using the package from a previous version."
+        },
+        {
+          "id": "C",
+          "text": "Deactivate the live app, import the previous version of the app, and then activate the app."
+        },
+        {
+          "id": "D",
+          "text": "Delete the app and create a new app based on the previous version."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 67,
+      "questionNo": 67,
+      "question": "You are a district manager for a large retail organization. You train each store manager to use Power BI to track sales and daily sales targets. A store manager remembers learning about the Analyze in Excel option but cannot find the option in their Power BI dashboard. You need to help the user resolve the issue. How should you advise the user?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Install the Power BI Desktop app."
+        },
+        {
+          "id": "B",
+          "text": "Select the Spotlight button on the dashboard tile."
+        },
+        {
+          "id": "C",
+          "text": "Subscribe to the dashboard and follow the email link."
+        },
+        {
+          "id": "D",
+          "text": "Navigate to the report used by the dashboard."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 71,
+      "questionNo": 71,
+      "question": "You create a Power BI dashboard that displays Common Data Model data. You need to share the Power BI dashboard with coworkers and allow the coworkers to collaborate. What are two possible ways to achieve the goal? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a Power BI workspace and grant coworkers permissions."
+        },
+        {
+          "id": "B",
+          "text": "Publish the dashboard as an app to your coworkers."
+        },
+        {
+          "id": "C",
+          "text": "Export the data to Microsoft Excel. Make required changes and then re-import the data."
+        },
+        {
+          "id": "D",
+          "text": "Create a Power Automate flow to export the data into a SQL Server database."
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 72,
+      "questionNo": 72,
+      "question": "You are using Dynamics 365 Sales. You need to create a Power BI report that includes customer office locations. The City and State columns must be combined to form one column on the report. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use Power Query Editor to merge columns."
+        },
+        {
+          "id": "B",
+          "text": "Import the data."
+        },
+        {
+          "id": "C",
+          "text": "Export data to Microsoft Excel."
+        },
+        {
+          "id": "D",
+          "text": "Create a view."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 75,
+      "questionNo": 75,
+      "question": "What is a benefit of deploying Microsoft 365 and Dynamics 365 apps in the same tenant?",
+      "options": [
+        {
+          "id": "A",
+          "text": "You do not need to manually back up data."
+        },
+        {
+          "id": "B",
+          "text": "Both will use the same time zone."
+        },
+        {
+          "id": "C",
+          "text": "You can use Power BI to display data that comes from both environments."
+        },
+        {
+          "id": "D",
+          "text": "You can implement Single Sign-On (SSO)."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 76,
+      "questionNo": 76,
+      "question": "A company runs a call center to handle customer support inquiries. The company tracks metrics including the number of incoming calls and call resolution rates. The company wants to display the metrics on a shared screen that is visible to all call center staff. You need to recommend a visualization solution for the company. Which Power Platform feature should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI Builder"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 78,
+      "questionNo": 78,
+      "question": "You are creating Power BI reports. You need to choose which filters you can use for reports. Which three types of filters can you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "drill-down"
+        },
+        {
+          "id": "B",
+          "text": "automatic"
+        },
+        {
+          "id": "C",
+          "text": "database"
+        },
+        {
+          "id": "D",
+          "text": "manual"
+        },
+        {
+          "id": "E",
+          "text": "external"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 80,
+      "questionNo": 80,
+      "question": "A manufacturing company uses Internet of Things (IoT) devices to monitor the temperature in different parts of their warehouse. You need to view near real-time information from the IoT devices in Power BI Service dashboards. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Scheduled refresh dataset"
+        },
+        {
+          "id": "B",
+          "text": "Streaming dataset"
+        },
+        {
+          "id": "C",
+          "text": "Content Pack dataset"
+        },
+        {
+          "id": "D",
+          "text": "Power BI dataflows"
+        },
+        {
+          "id": "E",
+          "text": "Quick Insights"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 84,
+      "questionNo": 84,
+      "question": "A company is using Power BI. The company wants to see which data connectors are available for building dashboards. You need to evaluate the available connectors. What should you use to see all the available connectors?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI Workspace"
+        },
+        {
+          "id": "B",
+          "text": "Common Data Service"
+        },
+        {
+          "id": "C",
+          "text": "Power BI Dataflows"
+        },
+        {
+          "id": "D",
+          "text": "Power Platform admin center"
+        },
+        {
+          "id": "E",
+          "text": "Power BI Desktop"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 86,
+      "questionNo": 86,
+      "question": "You create a set of dashboards and reports for a project team that combines data from different sources in Power BI. Some of the data is considered sensitive. You need to distribute the dashboards and reports securely to the team. What should you create?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a custom data connector"
+        },
+        {
+          "id": "B",
+          "text": "a published app"
+        },
+        {
+          "id": "C",
+          "text": "a Microsoft flow"
+        },
+        {
+          "id": "D",
+          "text": "a Power BI workspace"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 87,
+      "questionNo": 87,
+      "question": "You are creating visuals in Power BI. You create area charts, pie charts, and donut charts that use your company's data. You need to display the charts to others at the company. Which two objects can you add the charts to? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI service"
+        },
+        {
+          "id": "B",
+          "text": "Power BI reports"
+        },
+        {
+          "id": "C",
+          "text": "Power BI desktop"
+        },
+        {
+          "id": "D",
+          "text": "Power BI dashboards"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 90,
+      "questionNo": 90,
+      "question": "You are using Dynamics 365 Sales. You need to pull data into a Power BI report for your team. The City and State columns must be combined to form one column on the report. Which function would you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Use Power Query to merge columns."
+        },
+        {
+          "id": "B",
+          "text": "Import the data."
+        },
+        {
+          "id": "C",
+          "text": "Export data to Microsoft Excel."
+        },
+        {
+          "id": "D",
+          "text": "Create a view."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 91,
+      "questionNo": 91,
+      "question": "A carpet cleaning company uses Dynamics 365 Sales. The process for entering customer information during onsite sales calls is very complicated. The company wants a simplified screen that allows salespeople to capture the customer name, phone number, and other information while speaking to the customer. You need to recommend a solution that works on various types of mobile devices. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate"
+        },
+        {
+          "id": "C",
+          "text": "AI Builder"
+        },
+        {
+          "id": "D",
+          "text": "Canvas app"
+        },
+        {
+          "id": "E",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 92,
+      "questionNo": 92,
+      "question": "A company using Power Platform is implementing Power BI. The company plans to connect to several data sources and create reports and dashboards. You need to identify the data sources they can connect to. Which two data sources should you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Excel"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft OneNote"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Word"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 93,
+      "questionNo": 93,
+      "question": "You create a multi-page Power BI report for an organization. You must enable salespeople in the organization to use the report to view data relevant to their sales region only. You need to enable security for the report. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "sensitivity labels"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Azure Active Directory"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Trust Center"
+        },
+        {
+          "id": "D",
+          "text": "data loss prevention policies"
+        },
+        {
+          "id": "E",
+          "text": "row-level security"
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "multi": false
+    },
+    {
+      "id": 95,
+      "questionNo": 95,
+      "question": "User1 creates several Power BI dashboards for a company. User1 shares a dashboard with User2 who works for another company. User2 reports that she is able to view the dashboard. User2 forwards the email containing the dashboard sharing link that she received to User3. User3 reports that he receives an error message when he selects the link to view the dashboard. User3 can view a dashboard that he has created. You need to determine why User3 receives an error. What is the issue?",
+      "options": [
+        {
+          "id": "A",
+          "text": "User3 is running an out-of-date version of Power BI and must upgrade to a newer version."
+        },
+        {
+          "id": "B",
+          "text": "User2 is signed in to the dashboard and must sign out before User3 can sign in."
+        },
+        {
+          "id": "C",
+          "text": "Forwarding the email does not share the dashboard with User3."
+        },
+        {
+          "id": "D",
+          "text": "User1 is signed in using the wrong organizational account for Power BI."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 97,
+      "questionNo": 97,
+      "question": "You are developing reports for a company. You must create visualizations that include the following data: ✑ Invoices due from a third-party enterprise resource planning (ERP) system ✑ Number of calls made to the client from Microsoft Dataverse ✑ Microsoft Excel file data The reports must be displayed in a single page. You need to create the visualizations. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "deployment pipelines"
+        },
+        {
+          "id": "B",
+          "text": "tables"
+        },
+        {
+          "id": "C",
+          "text": "columns"
+        },
+        {
+          "id": "D",
+          "text": "dashboards"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 98,
+      "questionNo": 98,
+      "question": "You are using the Power BI service to view a visual on a report that has been shared with you. You need to add the visual to a dashboard as a tile. Which action should you perform?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Export data"
+        },
+        {
+          "id": "B",
+          "text": "Pin"
+        },
+        {
+          "id": "C",
+          "text": "Copy"
+        },
+        {
+          "id": "D",
+          "text": "Spotlight"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 99,
+      "questionNo": 99,
+      "question": "A company manages a chain of retail stores. The company stores a list of retail store names and numbers in one Power BI table. The company stores sales transaction data including a transaction ID in another table. The transaction ID includes the store number. You need to show the store name for all retail transactions in all Power BI reports. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Query Editor"
+        },
+        {
+          "id": "B",
+          "text": "Power BI Service"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Excel"
+        },
+        {
+          "id": "D",
+          "text": "Data Connector"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 101,
+      "questionNo": 101,
+      "question": "A company creates a Power BI report for vendors to view purchase orders. Vendors must view the report by using their own tenant environment. You need to use a Power BI technology to allow vendors to view the report. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "dashboard"
+        },
+        {
+          "id": "B",
+          "text": "mobile app"
+        },
+        {
+          "id": "C",
+          "text": "template app"
+        },
+        {
+          "id": "D",
+          "text": "workspace"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 104,
+      "questionNo": 104,
+      "question": "You create a Power App portal. When a user signs into the portal the following error displays: User not found You confirm that the user's sign in information is correct. You need to determine the cause of the error. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Disable custom error messages."
+        },
+        {
+          "id": "B",
+          "text": "Create a custom error message."
+        },
+        {
+          "id": "C",
+          "text": "Enable diagnostic tools in Lifecycle Services."
+        },
+        {
+          "id": "D",
+          "text": "Enable Maintenance mode."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 110,
+      "questionNo": 110,
+      "question": "A company uses Dynamics 365 Supply Chain Management. The company wants to build customer user interfaces that add additional functionality. You need to recommend a solution for the company. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI"
+        },
+        {
+          "id": "B",
+          "text": "Power Apps canvas apps"
+        },
+        {
+          "id": "C",
+          "text": "AI Builder"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Flow"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 111,
+      "questionNo": 111,
+      "question": "A company's customer-facing applications must comply with Global Data Protection Regulations (GDPR) regulations. You need to recommend actions to help ensure GDPR compliance. Which two features should the company use? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Force a user to update security questions after a specific amount of time."
+        },
+        {
+          "id": "B",
+          "text": "Prompt a user for consent to use their personal data and record the date consented."
+        },
+        {
+          "id": "C",
+          "text": "Block users who are identified as minors."
+        },
+        {
+          "id": "D",
+          "text": "Automatically deactivate a user who has not used the portal in six months."
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 113,
+      "questionNo": 113,
+      "question": "A company uses Power Apps canvas apps. When a user opens Power Apps Studio in a browser and selects Apps I can edit, they do not see an app that they need to modify. You need to determine why the user cannot see the app. What are three possible reasons? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The user selected an incorrect Power Apps environment."
+        },
+        {
+          "id": "B",
+          "text": "The user has not been granted the System Customizer role."
+        },
+        {
+          "id": "C",
+          "text": "The user has not been set as the app co-owner."
+        },
+        {
+          "id": "D",
+          "text": "The app has not been shared with the user."
+        },
+        {
+          "id": "E",
+          "text": "The environment does not have a Microsoft Dataverse database."
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 116,
+      "questionNo": 116,
+      "question": "You create a canvas app that allows contractors to submit time they work against a project. Contractors must be able to use the canvas app to enter time. Contractors must not be able to perform any other actions in the app. You need to configure permissions for the contractors. Which type of permissions should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "application-level"
+        },
+        {
+          "id": "B",
+          "text": "task-level"
+        },
+        {
+          "id": "C",
+          "text": "record-level"
+        },
+        {
+          "id": "D",
+          "text": "field-level"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 118,
+      "questionNo": 118,
+      "question": "You have a Microsoft Excel workbook that contains a list of tasks for a project. You store the file in OneDrive for Business. You need to create a canvas app that allows team members to update the status of their tasks. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "the Generate an app from data feature"
+        },
+        {
+          "id": "B",
+          "text": "a custom action in Common Data Service"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps Checker"
+        },
+        {
+          "id": "D",
+          "text": "the Open entity data in Excel feature"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 121,
+      "questionNo": 121,
+      "question": "A company has a Power Apps app that is used by most employees. The company is expanding to other countries/regions. You need to recommend a solution to translate text generated within the Power Apps app in near real-time. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Azure Synapse Analytics"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Azure Cognitive Services"
+        },
+        {
+          "id": "C",
+          "text": "Common Data Service connector"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 122,
+      "questionNo": 122,
+      "question": "A company plans to create a canvas app that connects to three databases with different proprietary database formats. What is the minimum number of connectors required?",
+      "options": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 126,
+      "questionNo": 126,
+      "question": "You create a Power Apps canvas app. You need to ensure that your coworkers can run the app. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Share the app."
+        },
+        {
+          "id": "B",
+          "text": "Send the URL for the app to coworkers."
+        },
+        {
+          "id": "C",
+          "text": "Publish the app."
+        },
+        {
+          "id": "D",
+          "text": "Create a Flow for the app."
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 127,
+      "questionNo": 127,
+      "question": "A company uses Microsoft 365, Power Platform, and Dynamics 365. You do not assign permissions to any licensed users. Users are able to create and edit Power Apps canvas apps. In which environment are users creating and editing the apps?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Production"
+        },
+        {
+          "id": "B",
+          "text": "Default"
+        },
+        {
+          "id": "C",
+          "text": "Sandbox"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 128,
+      "questionNo": 128,
+      "question": "A company uses a model-driven app for their mobile sales activities. The company wants to modify the view that is used for sales orders. You must apply a new default filter to the view. You must also modify the default sorting for sales orders. You need to make the changes to the view. In which three locations can you make the changes? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps site"
+        },
+        {
+          "id": "B",
+          "text": "Solution Explorer"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Azure DevOps"
+        },
+        {
+          "id": "D",
+          "text": "App Designer"
+        },
+        {
+          "id": "E",
+          "text": "Microsoft Visual Studio"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 131,
+      "questionNo": 131,
+      "question": "A company is creating a canvas app to display data from a legacy SQL Server database that is located on the company's internal network. You need to connect to the data. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "custom connector"
+        },
+        {
+          "id": "B",
+          "text": "content pack"
+        },
+        {
+          "id": "C",
+          "text": "data gateway"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 132,
+      "questionNo": 132,
+      "question": "You are creating a canvas app that uses one connector. Which two objects are provided by the connector? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "customizations"
+        },
+        {
+          "id": "B",
+          "text": "data sources"
+        },
+        {
+          "id": "C",
+          "text": "actions"
+        },
+        {
+          "id": "D",
+          "text": "tables"
+        },
+        {
+          "id": "E",
+          "text": "triggers"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 135,
+      "questionNo": 135,
+      "question": "A Power Apps developer has sufficient permissions to create apps, connections, and flows. The developer does not have permissions needed to access company data. You need to grant the developer access to company data for an app. Which predefined security role should you assign to the developer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Environment Maker"
+        },
+        {
+          "id": "B",
+          "text": "System Customizer"
+        },
+        {
+          "id": "C",
+          "text": "Common Data Service User"
+        },
+        {
+          "id": "D",
+          "text": "Delegate"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 136,
+      "questionNo": 136,
+      "question": "You create a model-driven app for a department. You need to make the model-driven app available to other department members. Which two methods should you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Send the application's Web URL to other team members by email."
+        },
+        {
+          "id": "B",
+          "text": "Use the Share feature in the Power Apps designer."
+        },
+        {
+          "id": "C",
+          "text": "Publish the app to AppSource."
+        },
+        {
+          "id": "D",
+          "text": "Deploy the application to other user's instances through PowerShell."
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 139,
+      "questionNo": 139,
+      "question": "You complete development and testing of a new canvas app. You add users to a security team and assign the security team permissions to the app. Users are unable to view the app. You need to ensure that users can launch and use the app. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Add the application to the solution."
+        },
+        {
+          "id": "B",
+          "text": "Publish the application."
+        },
+        {
+          "id": "C",
+          "text": "Share the application."
+        },
+        {
+          "id": "D",
+          "text": "Add a Power Apps Component Framework (PCF) control to the application."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 140,
+      "questionNo": 140,
+      "question": "You are creating a canvas app to enable users to order tickets. You create an input field for users to input the number of tickets to order. Users must order a maximum of four tickets and a minimum of two tickets. If a user enters a number except 2, 3, or 4, the input field must display in red. If a user enters the numbers 2, 3, or 4, the input field must display in green. You need to color the input field based on the user input. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "formula"
+        },
+        {
+          "id": "B",
+          "text": "gallery"
+        },
+        {
+          "id": "C",
+          "text": "connector"
+        },
+        {
+          "id": "D",
+          "text": "calculated column"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 142,
+      "questionNo": 142,
+      "question": "A company is considering implementing Power Platform. The company must minimize development costs. For which three scenarios should you consider implementing Power Apps Portals? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "a customer support website that includes knowledgebase search and support for document uploads"
+        },
+        {
+          "id": "B",
+          "text": "a public website that supports multilingual communities with forums and blogs support"
+        },
+        {
+          "id": "C",
+          "text": "a secure website for mobile users that is available only by using a VPN into the corporate network"
+        },
+        {
+          "id": "D",
+          "text": "a secure website for vendors accessing data stored in Common Data Service"
+        },
+        {
+          "id": "E",
+          "text": "an internal website for employees with limited access to Dynamics 365 Finance data"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 149,
+      "questionNo": 149,
+      "question": "You overwrite a Power Automate flow by editing the definition and saving the changes. You need to be able to revert a flow to the current state. Which two options can you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Export"
+        },
+        {
+          "id": "B",
+          "text": "Rename"
+        },
+        {
+          "id": "C",
+          "text": "Save As"
+        },
+        {
+          "id": "D",
+          "text": "Share"
+        }
+      ],
+      "answer": [
+        "A",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 150,
+      "questionNo": 150,
+      "question": "You have a Power Automate to create a flow that automatically sends email to a project manager when project team members mark a task as complete. Project team members are prematurely marking tasks as complete. Project leads must validate that tasks are complete before an email is sent to the project manager to announce task completion. You need to modify the flow. Which component should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "a process argument"
+        },
+        {
+          "id": "B",
+          "text": "a condition"
+        },
+        {
+          "id": "C",
+          "text": "an expression"
+        },
+        {
+          "id": "D",
+          "text": "a trigger"
+        },
+        {
+          "id": "E",
+          "text": "a solution"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 151,
+      "questionNo": 151,
+      "question": "A company uses Power Automate. Which three items can trigger flows? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lifecycle Services"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft 365 Admin center"
+        },
+        {
+          "id": "C",
+          "text": "Common Data Service"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Outlook 365"
+        },
+        {
+          "id": "E",
+          "text": "Microsoft Windows Desktop"
+        }
+      ],
+      "answer": [
+        "A",
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 153,
+      "questionNo": 153,
+      "question": "A company is using Power Automate to automate business processes. You need to run a flow when a user presses a button in an app. Which trigger type should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps"
+        },
+        {
+          "id": "B",
+          "text": "for a selected row"
+        },
+        {
+          "id": "C",
+          "text": "manually trigger a flow"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 154,
+      "questionNo": 154,
+      "question": "A company uses a manual process to manage escalations for customer support calls. You must use Power Automate to automate the process for routing escalated calls. You need to create the flow. Which type of connector should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Excel"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "C",
+          "text": "Office 365 Users"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 155,
+      "questionNo": 155,
+      "question": "You are creating a Power Automate flow. The flow must read each item in a Microsoft SharePoint list that details sales opportunities and set the value for a field named Status to Overdue if the value of a field named Follow up is less than or equal to the current date. You need to select the appropriate component to cycle through the entire list. Which component should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Condition"
+        },
+        {
+          "id": "B",
+          "text": "Connector"
+        },
+        {
+          "id": "C",
+          "text": "Action"
+        },
+        {
+          "id": "D",
+          "text": "Trigger"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 157,
+      "questionNo": 157,
+      "question": "A company uses Power Automate. Each time a work order is created, a service manager must review and approve the work order before a worker is dispatched. You need to create a flow to enforce the process. What should you create?",
+      "options": [
+        {
+          "id": "A",
+          "text": "plug-in"
+        },
+        {
+          "id": "B",
+          "text": "approval flow"
+        },
+        {
+          "id": "C",
+          "text": "business rule"
+        },
+        {
+          "id": "D",
+          "text": "team flow"
+        },
+        {
+          "id": "E",
+          "text": "scheduled flow"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 159,
+      "questionNo": 159,
+      "question": "You are new to working with Microsoft Flow. You create a flow that extracts birth dates for users and then sends a birthday greeting email to users on their birthday. The flow does not properly extract birth dates. Where should you make changes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Connectors"
+        },
+        {
+          "id": "B",
+          "text": "Expression"
+        },
+        {
+          "id": "C",
+          "text": "Templates"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 162,
+      "questionNo": 162,
+      "question": "A company has a website. The website includes a form that allows the company to collect information about leads. You need to set up an automated workflow to create leads in Dynamics 365 Sales when leads are created on the company's custom website. What should you create?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Task Flow"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate flow"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 workflow"
+        },
+        {
+          "id": "D",
+          "text": "Business Process Flow"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 163,
+      "questionNo": 163,
+      "question": "A company builds and sells residential apartments. The company uses Dynamics 365 Sales to manage sales opportunities. Management must receive notifications on their mobile devices when sales opportunities are created. You need to recommend the appropriate Microsoft Power Platform components to address the requirements. Which two components should you recommend to invoke the notification process? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI Builder"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Dataverse connector"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 164,
+      "questionNo": 164,
+      "question": "A company uses Microsoft 365, SharePoint Online, and Dynamics 365 Sales. You need to recommend tools to build a solution that meets the following requirements: Synchronize data daily - ✑ from an external Microsoft SQL Server instance. ✑ Send a report automatically to specific company executives. ✑ Ensure that opportunities over a specified amount are approved by a sales manager. Which two tools or components should you recommend? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Excel"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Word"
+        },
+        {
+          "id": "C",
+          "text": "Power BI"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "E",
+          "text": "Power Automate"
+        }
+      ],
+      "answer": [
+        "C",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 166,
+      "questionNo": 166,
+      "question": "A company uses Dynamics 365 Sales. Every time an opportunity is created, a Power Automate flow runs to email the opportunity to the sales manager. The sales manager leaves the company. You disable all accounts for the sales manager. You need to ensure that the new sales manager automatically receives email about opportunities when they are created. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Modify the flow and ensure that the correct manager's email is listed in the From field."
+        },
+        {
+          "id": "B",
+          "text": "Modify the flow and ensure that the correct manager's email is listed in the To field."
+        },
+        {
+          "id": "C",
+          "text": "Grant the new sales manager access to the departed sales manager's inbox."
+        },
+        {
+          "id": "D",
+          "text": "Modify the flow and ensure that the flow prompts the user to type the correct email for the To field."
+        },
+        {
+          "id": "E",
+          "text": "Create a flow that automatically forwards opportunity emails to the new sales manager."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 174,
+      "questionNo": 174,
+      "question": "A company uses Dynamics 365 Supply Chain Management. You need to use Power Automate to automate the process of receiving and tracking raw materials. Which type of connector should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Common Data Service"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 for Fin & Ops"
+        },
+        {
+          "id": "D",
+          "text": "Dynamic Signal"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 175,
+      "questionNo": 175,
+      "question": "A company performs on-site inspections and services for air industrial equipment. Field technicians must perform a series of maintenance checks every time they visit a customer site. Every technician performs maintenance steps in a different order. Some technicians miss steps. You need to ensure that all technicians perform the same steps in the same order. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Business process flow"
+        },
+        {
+          "id": "B",
+          "text": "AI Builder"
+        },
+        {
+          "id": "C",
+          "text": "Business rule"
+        },
+        {
+          "id": "D",
+          "text": "Virtual Agent"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 176,
+      "questionNo": 176,
+      "question": "You have a Power Automate flow that saves attachments from emails into OneDrive for Business. You need to determine why the flow is not working. What are three possible ways to achieve the goal? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Navigate to the Power Automate admin center and view the projects."
+        },
+        {
+          "id": "B",
+          "text": "Navigate to the Action Items section of the Power Automate portal."
+        },
+        {
+          "id": "C",
+          "text": "Enable Repair Tips for the flow."
+        },
+        {
+          "id": "D",
+          "text": "Navigate to the flow and view the run history."
+        },
+        {
+          "id": "E",
+          "text": "Navigate to the Power Automate web portal and click view notifications."
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 182,
+      "questionNo": 182,
+      "question": "You are building a Power Automate flow to manage sales. The sales team saves quotes as PDF files to a Microsoft OneDrive folder. You create a Microsoft SharePoint list to help the sales team manage follow ups to quotes. You need to copy the customer name, phone number, and the amount of the potential sale from the sales quote and insert the data into the SharePoint list. Which AI Builder model should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "key phrase extraction"
+        },
+        {
+          "id": "B",
+          "text": "sentiment analysis"
+        },
+        {
+          "id": "C",
+          "text": "text recognition"
+        },
+        {
+          "id": "D",
+          "text": "language detection"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 184,
+      "questionNo": 184,
+      "question": "A company wants users to start using Power Automate to improve personal productivity. You need to create a flow. Which two elements must you include? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "expression"
+        },
+        {
+          "id": "B",
+          "text": "condition"
+        },
+        {
+          "id": "C",
+          "text": "action"
+        },
+        {
+          "id": "D",
+          "text": "trigger"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 186,
+      "questionNo": 186,
+      "question": "You plan to use Power Automate to perform data-management tasks when users interact with data in the common data model. Which three types of events can generate a trigger for the tasks? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "when a record is displayed in a view"
+        },
+        {
+          "id": "B",
+          "text": "when a record is deleted"
+        },
+        {
+          "id": "C",
+          "text": "when a record is created"
+        },
+        {
+          "id": "D",
+          "text": "when a record is updated"
+        },
+        {
+          "id": "E",
+          "text": "when a record is read"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 187,
+      "questionNo": 187,
+      "question": "A company uses Dynamics 365 Supply Chain Management. When a sales order is created for one of the customers that a specific user manages, a Microsoft Outlook task must be created to remind the user to perform any follow up activities that are required. You need to implement the functionality to create Outlook tasks. Which two features should you use? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "AI Builder"
+        },
+        {
+          "id": "B",
+          "text": "Power Apps"
+        },
+        {
+          "id": "C",
+          "text": "Business Events"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate"
+        },
+        {
+          "id": "E",
+          "text": "Common Data Service"
+        }
+      ],
+      "answer": [
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 189,
+      "questionNo": 189,
+      "question": "This question requires that you evaluate the underlined text to determine if it is correct. A company requires that service representatives schedule customer visits every six months. Each service representative is required to enter a scheduled task for the next checkup as they are leaving a client site. A service representative wants to automate task entry by creating a business process flow that can be initiated from the service call screen on a phone. Review the underlined text. If it makes the statement correct, select `No change is needed.` If the statement is incorrect, select the answer choice that makes the statement correct.",
+      "options": [
+        {
+          "id": "A",
+          "text": "No change is needed."
+        },
+        {
+          "id": "B",
+          "text": "a scheduled"
+        },
+        {
+          "id": "C",
+          "text": "an instant"
+        },
+        {
+          "id": "D",
+          "text": "an action"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 191,
+      "questionNo": 191,
+      "question": "You are implementing Power Apps for a company. Data from an online proprietary accounting system must be automatically updated every four hours into Microsoft Dataverse without creating duplicates. Only changes to the data must be added. Thousands of records are added per hour. You need to set up the technology to ensure that the data is integrated every four hours. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a custom connector."
+        },
+        {
+          "id": "B",
+          "text": "Create a Cloud flow that exports and imports the data."
+        },
+        {
+          "id": "C",
+          "text": "Export all data to Azure Blob storage."
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 193,
+      "questionNo": 193,
+      "question": "A company wants to use Power Automate to send email alerts to a specific employee whenever the company is mentioned in a Twitter post. You need to create the flow. From which two locations can you create the required flow? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "a mobile app"
+        },
+        {
+          "id": "B",
+          "text": "a browser"
+        },
+        {
+          "id": "C",
+          "text": "a desktop application"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 195,
+      "questionNo": 195,
+      "question": "You create a Power Virtual Agents chatbot for a company. The management wants to learn about the effectiveness of the chatbot. You need to identify the percentage of customers who stop responding to prompts from the chatbot. Which report should you view?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Customer satisfaction"
+        },
+        {
+          "id": "B",
+          "text": "Engagement over time"
+        },
+        {
+          "id": "C",
+          "text": "Escalation rate drivers"
+        },
+        {
+          "id": "D",
+          "text": "Session outcomes over time"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 197,
+      "questionNo": 197,
+      "question": "You are planning to allow members of your team to test your chatbot. You must ensure this is done in a secure way. A team member named User1 must test the chatbot. You need to ensure that User1 can complete testing. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sign in to the authoring environment as the chatbot author."
+        },
+        {
+          "id": "B",
+          "text": "Sign in to Microsoft Azure DevOps as the chatbot author."
+        },
+        {
+          "id": "C",
+          "text": "Sign in to Microsoft Azure DevOps as User1."
+        },
+        {
+          "id": "D",
+          "text": "Sign in to the authoring environment as User1."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 199,
+      "questionNo": 199,
+      "question": "You are creating a canvas app that uses one connector. Which two objects are provided by the connector? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "customizations"
+        },
+        {
+          "id": "B",
+          "text": "actions"
+        },
+        {
+          "id": "C",
+          "text": "tables"
+        },
+        {
+          "id": "D",
+          "text": "triggers"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 201,
+      "questionNo": 201,
+      "question": "A company plans to move an on-premises customer service data management system to a cloud-managed solution. The customer service application must be replaced by a model-driven application. The company uses Microsoft SQL Server Integration Services (SSIS) packages to move data from the on-premises database system to a third- party enterprise resource planning (ERP) system. You need to replace the SSIS packages for data transfer. What should the company use in place of the packages to move the data?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Platform connector"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Azure Data Lake"
+        },
+        {
+          "id": "C",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "D",
+          "text": "Data Migration Framework"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 203,
+      "questionNo": 203,
+      "question": "You develop a Power Virtual Agents chatbot in a Microsoft Teams channel named Expenses. You need to identify the operations the chatbot can perform. Which two actions can the chatbot perform? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trigger a request for approval from a senior manager for high-value expenses."
+        },
+        {
+          "id": "B",
+          "text": "Upload and process a PDF file."
+        },
+        {
+          "id": "C",
+          "text": "Staff who are not members of the Expenses team can use the chatbot."
+        },
+        {
+          "id": "D",
+          "text": "Transfer a chat to a live person if the chatbot cannot answer the question."
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 204,
+      "questionNo": 204,
+      "question": "A company is using Power Virtual Agents with Dynamics 365 Customer Service. You create a new topic. The topic performs as expected during testing. Customers report that the new topic is not visible in the frequently asked questions section of the company's website. You need to ensure customers can see the new topic. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Delete and recreate the topic."
+        },
+        {
+          "id": "B",
+          "text": "Create a new variable."
+        },
+        {
+          "id": "C",
+          "text": "Paste the link to the website."
+        },
+        {
+          "id": "D",
+          "text": "Analyze the chatbot."
+        },
+        {
+          "id": "E",
+          "text": "Publish the topic."
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "multi": false
+    },
+    {
+      "id": 205,
+      "questionNo": 205,
+      "question": "A company is building an interactive chatbot to answer questions about product and product warranties. You need to create conversation paths for questions about product warranties. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Authoring canvas"
+        },
+        {
+          "id": "B",
+          "text": "Azure Bot Framework"
+        },
+        {
+          "id": "C",
+          "text": "Power Platform admin center"
+        },
+        {
+          "id": "D",
+          "text": "Power Virtual Agents portal"
+        },
+        {
+          "id": "E",
+          "text": "Conversation node"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 207,
+      "questionNo": 207,
+      "question": "You are building a Power Virtual Agents chatbot for a company. You are working with an existing topic and would like to call an action. Which technology is available to perform the action?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Virtual Agent Entity"
+        },
+        {
+          "id": "B",
+          "text": "Power BI"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 209,
+      "questionNo": 209,
+      "question": "A company is creating a chatbot to replace a frequently asked questions (FAQ) site. You must perform step-by-step testing for all scenarios that are part of a complex user interaction that includes multiple topics. Testers must be able to see the workflow while interacting with the chatbot. You need to test the chatbot. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "View analytics for a chatbot conversation."
+        },
+        {
+          "id": "B",
+          "text": "Publish the chatbot and test it in any channel."
+        },
+        {
+          "id": "C",
+          "text": "Publish the chatbot and test it in the demo website."
+        },
+        {
+          "id": "D",
+          "text": "Use the chatbot designer to test the chatbot."
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 215,
+      "questionNo": 215,
+      "question": "You create a Power Virtual Agents chatbot for a company. The chatbot will use common channels and services by which the company communicates with customers. You need to determine which services the chatbot can be used with or added to. Which two services can the chatbot be used with? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Facebook"
+        },
+        {
+          "id": "B",
+          "text": "Power BI"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Azure Event Grid"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Azure Service Bus"
+        },
+        {
+          "id": "E",
+          "text": "Microsoft Azure Bot Framework"
+        }
+      ],
+      "answer": [
+        "A",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 218,
+      "questionNo": 218,
+      "question": "A company has an online store to sell toys. The volume of order tracking requests has increased. You need to allow customers to use an interactive interface on the website to request order tracking information. Which technology should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Automate flows"
+        },
+        {
+          "id": "B",
+          "text": "Customer Service Insights"
+        },
+        {
+          "id": "C",
+          "text": "Power Virtual Agents chatbots"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 221,
+      "questionNo": 221,
+      "question": "You are developing a Microsoft Power Platform solution. The solution uses data stored in Microsoft Excel, a Microsoft Dataverse database, and an Azure SQL database. You must create several visuals to enable the data to display on a screen without moving the data out of its source location. You need to create the visuals. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Automate"
+        },
+        {
+          "id": "B",
+          "text": "Power Platform Center of Excellence Starter Kit"
+        },
+        {
+          "id": "C",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 225,
+      "questionNo": 225,
+      "question": "You are using Power Virtual Agents to create a chatbot for your Power Apps portal. You need the chatbot to start from the beginning of the conversation if user input is unrecognized. What should you configure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trigger"
+        },
+        {
+          "id": "B",
+          "text": "AI features"
+        },
+        {
+          "id": "C",
+          "text": "Fallback topic"
+        },
+        {
+          "id": "D",
+          "text": "Error message"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 226,
+      "questionNo": 226,
+      "question": "A company uses Microsoft 365 and Power Platform. You do not assign permissions to any licensed users. Users are able to create and edit Power Apps canvas apps. In which environment are users creating and editing the apps?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Production"
+        },
+        {
+          "id": "B",
+          "text": "Test"
+        },
+        {
+          "id": "C",
+          "text": "Sandbox"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 229,
+      "questionNo": 229,
+      "question": "You are designing Power BI dashboards and reports to analyze the financial data for a company. You must analyze the past three years of data from the company's accounting system. You need to ensure that dashboards only display required data. What are two possible ways to achieve the goal? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create aggregations."
+        },
+        {
+          "id": "B",
+          "text": "Import data into Microsoft Dataverse."
+        },
+        {
+          "id": "C",
+          "text": "Share dashboards."
+        },
+        {
+          "id": "D",
+          "text": "Create calculated columns."
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 231,
+      "questionNo": 231,
+      "question": "You are developing a Power Virtual Agents chatbot. The chatbot must respond to user questions by using instant messaging (IM). You need to deploy the chatbot. Where should you install the chatbot?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps maker portal"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Power Platform app"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Team"
+        },
+        {
+          "id": "D",
+          "text": "your desktop"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 232,
+      "questionNo": 232,
+      "question": "A company uses a Microsoft Excel spreadsheet to record raw material quality daily. The company's chief technology officer (CTO) wants to use a model-driven app to record the information. The chief executive officer (CEO) will fund the development of the app for the CTO only if the CEO understands the benefits of using a model-driven app. You need to identify the benefits of model-driven apps. Which two benefits of using a model-driven app should you identify? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "The app contains prebuilt tables, forms, and views that reduce development time."
+        },
+        {
+          "id": "B",
+          "text": "Users may use the same app on a mobile device, a tablet or a PC."
+        },
+        {
+          "id": "C",
+          "text": "The app may continue to use the existing Excel spreadsheet as a source of data."
+        },
+        {
+          "id": "D",
+          "text": "Both staff members and anonymous users may use the app."
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 233,
+      "questionNo": 233,
+      "question": "A company uses Dynamics 365 Sales. The company uses a browser-based app named Sales Hub. You need to ensure that users can access data from Sales Hub by using mobile devices. Which app should users install?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 Remote Assist"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 Business Central"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 Finance"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365 for Phones"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 234,
+      "questionNo": 234,
+      "question": "You create a canvas app that uses a Microsoft Excel spreadsheet as a data source. The spreadsheet contains a list of pets. Each column in the spreadsheet is a different attribute about a pet. You need to create an interface to allow users to save a new pet record to the spreadsheet. What is the minimum number of controls you need to implement to create the interface?",
+      "options": [
+        {
+          "id": "A",
+          "text": "One control: an edit form control"
+        },
+        {
+          "id": "B",
+          "text": "Two controls: an edit form control and a button control"
+        },
+        {
+          "id": "C",
+          "text": "Three controls: a text input control, a date picker control, and a combo box control"
+        },
+        {
+          "id": "D",
+          "text": "Four controls: a text input control, a date picker control, a combo box control, and a button control"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 235,
+      "questionNo": 235,
+      "question": "A company creates canvas apps for its sales team. A user creates a canvas app from a data source. You need to determine the screens created. Which three screens should you identify? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "welcome"
+        },
+        {
+          "id": "B",
+          "text": "edit/create"
+        },
+        {
+          "id": "C",
+          "text": "browse"
+        },
+        {
+          "id": "D",
+          "text": "details"
+        },
+        {
+          "id": "E",
+          "text": "delete"
+        }
+      ],
+      "answer": [
+        "B",
+        "C",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 238,
+      "questionNo": 238,
+      "question": "A company uses a model-driven app. You add several columns to a form. Users state the new columns do not appear on the form. You need to fix the issue. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a Power Automate flow."
+        },
+        {
+          "id": "B",
+          "text": "Create a business rule."
+        },
+        {
+          "id": "C",
+          "text": "Ensure columns are in one section of the form only."
+        },
+        {
+          "id": "D",
+          "text": "Copy the form and rename it."
+        },
+        {
+          "id": "E",
+          "text": "Publish the form."
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "multi": false
+    },
+    {
+      "id": 242,
+      "questionNo": 242,
+      "question": "You test a business process flow in a sandbox environment. When you complete testing, you must copy the business process flow to a production environment without bringing any data or other modifications with it. You must meet the requirements. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Export the default solution."
+        },
+        {
+          "id": "B",
+          "text": "Create a view and export the view."
+        },
+        {
+          "id": "C",
+          "text": "Add the business process flow to a separate solution. Export the solution."
+        },
+        {
+          "id": "D",
+          "text": "Export the form that contains the business process flow to a separate solution."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 243,
+      "questionNo": 243,
+      "question": "You create a Power Apps app and Power Automate flow. You need to combine multiple types of field values into a single string value and format the string. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "condition"
+        },
+        {
+          "id": "B",
+          "text": "switch"
+        },
+        {
+          "id": "C",
+          "text": "environment variable"
+        },
+        {
+          "id": "D",
+          "text": "expression"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 246,
+      "questionNo": 246,
+      "question": "The front desk of a hotel uses a model-driven app to check in guests. The hotel wants to create a canvas app for the housekeeping staff to manage cleaning supplies. The canvas app will connect to a new instance of Microsoft Dataverse. You need to create a new environment for the housekeeping staff. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft 365 admin center"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Power Platform admin center"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps maker portal"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Azure portal"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 247,
+      "questionNo": 247,
+      "question": "A company uses a model-driven app to record customers’ dietary preferences. You need to change the order of the columns in a personal view that you created on the Contact table. Where should you change the order?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps Studio"
+        },
+        {
+          "id": "B",
+          "text": "App designer"
+        },
+        {
+          "id": "C",
+          "text": "Model-driven app"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Power Platform admin center"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 250,
+      "questionNo": 250,
+      "question": "A company uses a Power Apps canvas app to enter information. The canvas app uses a Microsoft SharePoint list to store information. A user manually copies the information to a Microsoft Dataverse instance. You must automate the manual process. You need to create a solution to meet the requirement. What should you do?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Create a Power Apps Component Framework (PCF) control for the OnLoad events."
+        },
+        {
+          "id": "B",
+          "text": "Create a business process flow that calls a Power Automate desktop flow."
+        },
+        {
+          "id": "C",
+          "text": "Create a Power Apps Component Framework (PCF) control for the OnSave event."
+        },
+        {
+          "id": "D",
+          "text": "Create a Power Automate cloud flow with no connectors."
+        },
+        {
+          "id": "E",
+          "text": "Create a Power Automate cloud flow with a connector to email."
+        }
+      ],
+      "answer": [
+        "E"
+      ],
+      "multi": false
+    },
+    {
+      "id": 251,
+      "questionNo": 251,
+      "question": "An airline company wants to use Power Apps to manage its lost luggage desk. You need to determine whether the company should build a canvas app or a model-driven app. Which two questions should you ask to determine which type of app the company should use? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Which data sources will be used?"
+        },
+        {
+          "id": "B",
+          "text": "Which Microsoft Azure Active Directory (Azure AD) users or groups will use the app?"
+        },
+        {
+          "id": "C",
+          "text": "Will the app be used with mobile or tablet devices?"
+        },
+        {
+          "id": "D",
+          "text": "Does the app need to use a specific layout?"
+        },
+        {
+          "id": "E",
+          "text": "Will the app builders have coding skills?"
+        }
+      ],
+      "answer": [
+        "A",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 255,
+      "questionNo": 255,
+      "question": "A company creates canvas apps that use a data source from its sales team. To meet company device policies, you must determine the available app formats the sales team can select when the sales team creates the canvas. You need to determine the available app formats. Which two app formats should you select? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Android"
+        },
+        {
+          "id": "B",
+          "text": "iOS"
+        },
+        {
+          "id": "C",
+          "text": "Mobile"
+        },
+        {
+          "id": "D",
+          "text": "Desktop"
+        },
+        {
+          "id": "E",
+          "text": "Tablet"
+        }
+      ],
+      "answer": [
+        "C",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 256,
+      "questionNo": 256,
+      "question": "A company is undergoing a digital transformation by using Microsoft Power Platform. Departments in the company have the following requirements: You need to determine which department can use a canvas app to meet its requirement. For which department should you develop a canvas app?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Facilities"
+        },
+        {
+          "id": "B",
+          "text": "Finance"
+        },
+        {
+          "id": "C",
+          "text": "Customer service"
+        },
+        {
+          "id": "D",
+          "text": "Marketing"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 257,
+      "questionNo": 257,
+      "question": "A user requests the removal of the Fax column from the following form in a model-driven app: Which form should you open in the app designer?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Account"
+        },
+        {
+          "id": "B",
+          "text": "Information"
+        },
+        {
+          "id": "C",
+          "text": "Summary"
+        },
+        {
+          "id": "D",
+          "text": "Alpine Ski House"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 258,
+      "questionNo": 258,
+      "question": "A company uses a custom-built system to record financial data that runs on a manager's machine. The system does not have an API. New customer details must be manually entered into the system by the manager from a central spreadsheet. The user interface of the system contains the complex business logic that is needed for the manual customer data entry process. You need to ensure that new customer details can be entered into the system automatically by using Power Automate. Which type of flow should you create?",
+      "options": [
+        {
+          "id": "A",
+          "text": "automated cloud"
+        },
+        {
+          "id": "B",
+          "text": "business process"
+        },
+        {
+          "id": "C",
+          "text": "desktop"
+        },
+        {
+          "id": "D",
+          "text": "instant cloud"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 260,
+      "questionNo": 260,
+      "question": "A company uses Dynamics 365 Supply Chain Management. When a sales order is created for one of the customers that a specific user manages, a Microsoft Outlook task must be created to remind the user to perform any follow up activities that are required. You need to implement the functionality to create Outlook tasks. Which feature should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Business Events"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate"
+        },
+        {
+          "id": "C",
+          "text": "AI Builder"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "E",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 261,
+      "questionNo": 261,
+      "question": "You build a custom AI Builder model and use it in Power Automate cloud flows. Users report that they are not able to use the model in their flows. You need to allow users to access the model in their flows. Which action should you perform on the model?",
+      "options": [
+        {
+          "id": "A",
+          "text": "share"
+        },
+        {
+          "id": "B",
+          "text": "edit"
+        },
+        {
+          "id": "C",
+          "text": "publish"
+        },
+        {
+          "id": "D",
+          "text": "train"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 262,
+      "questionNo": 262,
+      "question": "A company is considering using Power Pages for its website. You need to identify the capabilities of Power Pages. What are two capabilities of Power Pages? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Supporting multiple languages"
+        },
+        {
+          "id": "B",
+          "text": "Providing low-code websites hosted as a service"
+        },
+        {
+          "id": "C",
+          "text": "Supplying OData feeds"
+        },
+        {
+          "id": "D",
+          "text": "Creating customized styling for each user"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 265,
+      "questionNo": 265,
+      "question": "A company requires a Power Pages site that uses one of the site design templates provided with Power Pages to build its website on. You need to deploy the site. Which three pages will be included in the site? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Forums"
+        },
+        {
+          "id": "B",
+          "text": "Home page"
+        },
+        {
+          "id": "C",
+          "text": "Summary"
+        },
+        {
+          "id": "D",
+          "text": "Search results"
+        },
+        {
+          "id": "E",
+          "text": "Contact us"
+        }
+      ],
+      "answer": [
+        "B",
+        "D",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 266,
+      "questionNo": 266,
+      "question": "A company uses Microsoft Power Platform to monitor social media. You create a Power Automate cloud flow to process social media messages that positively mention the company and its products. You need to choose a connector to perform sentiment analysis on the social media messages. Which two connectors can you use in the flow? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Azure Communication Services Chat"
+        },
+        {
+          "id": "B",
+          "text": "Language - Question Answering"
+        },
+        {
+          "id": "C",
+          "text": "AI Builder"
+        },
+        {
+          "id": "D",
+          "text": "Azure Application Insights"
+        },
+        {
+          "id": "E",
+          "text": "Azure Cognitive Service for Language"
+        }
+      ],
+      "answer": [
+        "C",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 268,
+      "questionNo": 268,
+      "question": "A company is considering using Power Pages for its website. You need to determine whether the use cases for Power Pages meet the company’s requirements. What is a use case for Power Pages?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sharing data with customers"
+        },
+        {
+          "id": "B",
+          "text": "Building mobile apps for iOS"
+        },
+        {
+          "id": "C",
+          "text": "Performing repetitive tasks"
+        },
+        {
+          "id": "D",
+          "text": "Creating visualizations of data"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 270,
+      "questionNo": 270,
+      "question": "A company stores its customer warranty information in Microsoft Dataverse. Authenticated and authorized customers must be able to access their own warranty information without requiring a user-assigned Microsoft Power Platform license. You need to share warranty information with these customers. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI report"
+        },
+        {
+          "id": "B",
+          "text": "Model-driven app"
+        },
+        {
+          "id": "C",
+          "text": "Power Pages site"
+        },
+        {
+          "id": "D",
+          "text": "Canvas app"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 271,
+      "questionNo": 271,
+      "question": "A company is considering using AI Builder to gain insights into its data. You need to determine whether the use cases for AI Builder meet the company's requirements. What are three use cases for AI Builder? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Prediction"
+        },
+        {
+          "id": "B",
+          "text": "Object detection"
+        },
+        {
+          "id": "C",
+          "text": "Anomaly detection"
+        },
+        {
+          "id": "D",
+          "text": "Conversational language understanding"
+        },
+        {
+          "id": "E",
+          "text": "Category classification"
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 272,
+      "questionNo": 272,
+      "question": "You are creating a self-service solution to handle incoming sales support calls. The solution must detect the caller's location and translate any information the caller provides from the caller's native language to English. Which two components should you use? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Azure Cognitive Services"
+        },
+        {
+          "id": "C",
+          "text": "AI Builder Language Detection Model"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Dynamics 365 Remote Assist for mobile"
+        }
+      ],
+      "answer": [
+        "B",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 276,
+      "questionNo": 276,
+      "question": "You create a canvas app by using the option labeled Start from data. You connect a spreadsheet that contains customer records. The customer records are displayed in a list on a screen labeled Browse. You need to modify a property of the control on the screen. Which control should you modify?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Display form"
+        },
+        {
+          "id": "B",
+          "text": "Icon"
+        },
+        {
+          "id": "C",
+          "text": "Search"
+        },
+        {
+          "id": "D",
+          "text": "Gallery"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 280,
+      "questionNo": 280,
+      "question": "A company uses Microsoft Power Platform. An administrator creates a new data loss prevention (DLP) policy. You need to identify the Microsoft Power Platform components that must be updated to comply with the policy. Which two types of components should you identify? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Automate cloud flows"
+        },
+        {
+          "id": "B",
+          "text": "Canvas apps"
+        },
+        {
+          "id": "C",
+          "text": "Power BI reports"
+        },
+        {
+          "id": "D",
+          "text": "Model-driven apps"
+        },
+        {
+          "id": "E",
+          "text": "Power Pages websites"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 283,
+      "questionNo": 283,
+      "question": "A hotel develops a housekeeping checklist for its housekeeping staff to use when they finish cleaning a room. The housekeeping staff must be able to use their mobile device to add a check mark for each completed task and take a picture of the prepared bed. The results of the checklist for each room must be stored in a SharePoint list. You need to select the Microsoft Power Platform component that fulfills the requirement. Which component should you select?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Pages site"
+        },
+        {
+          "id": "B",
+          "text": "Power Virtual Agents chatbot"
+        },
+        {
+          "id": "C",
+          "text": "Power BI report"
+        },
+        {
+          "id": "D",
+          "text": "Model-driven app"
+        },
+        {
+          "id": "E",
+          "text": "Canvas app"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 290,
+      "questionNo": 290,
+      "question": "You are building a canvas app to allow users to record their expenses. The app also will support screen readers for users with visual impairments. You have the following requirements: •Use a tool that identifies potential issues. •Use a tool that provides suggestions for modifying the app. You need a tool that meets the requirements. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Flow Checker"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Trust Center"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Power Platform admin center"
+        },
+        {
+          "id": "D",
+          "text": "Accessibility Checker"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 294,
+      "questionNo": 294,
+      "question": "A company is building a model-driven app for employees to record customer orders. The company requires that an alphanumeric customer identification number be manually recorded with each new customer record in Dataverse. The customer table is already configured. You need to configure the customer identification number on the customer table in Dataverse. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "column"
+        },
+        {
+          "id": "B",
+          "text": "relationship"
+        },
+        {
+          "id": "C",
+          "text": "dataflow"
+        },
+        {
+          "id": "D",
+          "text": "table"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 297,
+      "questionNo": 297,
+      "question": "You are creating a canvas app. You select the form factor of the app. You need to add a source of the data. What should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "screen"
+        },
+        {
+          "id": "B",
+          "text": "connector"
+        },
+        {
+          "id": "C",
+          "text": "formula"
+        },
+        {
+          "id": "D",
+          "text": "control"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 302,
+      "questionNo": 302,
+      "question": "You develop a Copilot Studio copilot in a Microsoft Teams channel. You need to identify the operations the copilot can perform. Which action can the copilot perform?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trigger a request for approval from a senior manager for high-value expenses."
+        },
+        {
+          "id": "B",
+          "text": "Upload and process a PDF file."
+        },
+        {
+          "id": "C",
+          "text": "Transfer a chat to a live person if the copilot cannot answer the question."
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 304,
+      "questionNo": 304,
+      "question": "You review a Power BI report about a company's sales data in Power BI. You open an insight notification and observe that one of the company stores has a higher sales value than the target sales value in the previous quarter. You need to identify the insight that is shown in the notification. Which insight is used?",
+      "options": [
+        {
+          "id": "A",
+          "text": "key performance indicator (KPI) analysis"
+        },
+        {
+          "id": "B",
+          "text": "significant anomaly"
+        },
+        {
+          "id": "C",
+          "text": "trend reversal"
+        },
+        {
+          "id": "D",
+          "text": "recent trend"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 306,
+      "questionNo": 306,
+      "question": "A shipping company is evaluating Microsoft Power Platform services and capabilities. The company requires an app that can track and manage stock items. The company has no existing data or images to assist with app creation. You need to demonstrate the ease of the process to create an app and a data model by using natural language. Which platform feature or option should you use for the demonstration?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Copilot"
+        },
+        {
+          "id": "B",
+          "text": "Start with data"
+        },
+        {
+          "id": "C",
+          "text": "Start from an image"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate"
+        },
+        {
+          "id": "E",
+          "text": "AI Builder"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 308,
+      "questionNo": 308,
+      "question": "A company uses Dataverse to store information about its products and stock levels. The company requires a solution that allows existing customers and potential new customers to perform the following self-service actions: •Locate information about available products. •Register their information for marketing materials. •Create their own orders. You need to recommend a Microsoft Power Platform component that meets the requirements. Which component should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI"
+        },
+        {
+          "id": "B",
+          "text": "Power Pages"
+        },
+        {
+          "id": "C",
+          "text": "Canvas app"
+        },
+        {
+          "id": "D",
+          "text": "Model-driven app"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 314,
+      "questionNo": 314,
+      "question": "A company is implementing Microsoft Power Platform. The company currently stores data in a SQL Server database. You need to explain the key benefits of Dataverse compared to SQL Server. Which three benefits should you explain? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Data schema changes can be made without any knowledge of code."
+        },
+        {
+          "id": "B",
+          "text": "Existing Dynamics 365 customer engagement apps integrate natively with Dataverse."
+        },
+        {
+          "id": "C",
+          "text": "Dataverse has multiple extensibility options within Microsoft Azure."
+        },
+        {
+          "id": "D",
+          "text": "Administrators can manage all aspects of the underlying platform."
+        },
+        {
+          "id": "E",
+          "text": "Dataverse can be hosted on different cloud providers to improve resiliency."
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "C"
+      ],
+      "multi": true
+    },
+    {
+      "id": 315,
+      "questionNo": 315,
+      "question": "You are creating a Power Pages website for a company. You create the pages and provide branding for the site. You now must make the site visible across the internet. You need to select the tool to use to make the site available. Which tool should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Design studio"
+        },
+        {
+          "id": "B",
+          "text": "Visual Studio Code"
+        },
+        {
+          "id": "C",
+          "text": "Portal management app"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate maker portal"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 316,
+      "questionNo": 316,
+      "question": "Your company uses a SharePoint list to track customer order information, including manufacturing status. Employees find the list difficult to read and update when using their mobile devices. You have a requirement to improve the usability of interacting with order data while on mobile devices. You need to determine which Microsoft Power Platform capability will meet the requirements. Which capability should you choose?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI report"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate cloud flow"
+        },
+        {
+          "id": "C",
+          "text": "Canvas app"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 319,
+      "questionNo": 319,
+      "question": "You create a canvas app by using the option labeled Start from data. You connect a spreadsheet that contains customer records. The customer records are displayed in a list on a screen labeled Browse. You need to apply a filter to the control that displays the customer records. Which control should you modify?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Display form"
+        },
+        {
+          "id": "B",
+          "text": "Icon"
+        },
+        {
+          "id": "C",
+          "text": "Search"
+        },
+        {
+          "id": "D",
+          "text": "Gallery"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 321,
+      "questionNo": 321,
+      "question": "A company plans to implement customer engagement apps in Dynamics 365 Customer Service. The company plans to deploy a portal that connects to Customer Service. Customers must be able to log in and access details about open cases. You need to identify the Microsoft Power Platform capability that provides the required functionality. Which solution should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Canvas app"
+        },
+        {
+          "id": "B",
+          "text": "Model-driven app"
+        },
+        {
+          "id": "C",
+          "text": "Power Pages site"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 323,
+      "questionNo": 323,
+      "question": "A company has built a Power Apps app to take pictures of and store business card data during a seminar. The company wants to select a tool that can extract data from the pictures. You need to identify the tool. Which tool should you select?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Dataverse"
+        },
+        {
+          "id": "B",
+          "text": "Azure Machine Learning"
+        },
+        {
+          "id": "C",
+          "text": "AI Builder"
+        },
+        {
+          "id": "D",
+          "text": "Copilot Studio"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 327,
+      "questionNo": 327,
+      "question": "A large manufacturing company operates a single enterprise resource planning (ERP) application. The company uses SQL Server with an outdated web interface that does not work with modern browsers. The company requires a new application interface that uses the capabilities of Microsoft Power Platform. The key requirements for the solution are: •Users must be able to read/write data. •Due to data privacy concerns, all data must remain within the ERP application. •Where possible, costs must be minimized. You need to recommend platform features to implement the requirements. Which two features should you recommend? Each correct answer presents part of the solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dataverse"
+        },
+        {
+          "id": "B",
+          "text": "Connector"
+        },
+        {
+          "id": "C",
+          "text": "Power BI report"
+        },
+        {
+          "id": "D",
+          "text": "Power Apps"
+        },
+        {
+          "id": "E",
+          "text": "Dataflow"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 329,
+      "questionNo": 329,
+      "question": "A retailer has decided to build a canvas app for employees. The app can run on tablets. The application has a custom authentication system. The company wants to ensure that if an employee uses another application on the tablet, they are automatically signed out of the canvas app after five minutes. You need to identify the control to trigger the action. Which control should you select?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Screen"
+        },
+        {
+          "id": "B",
+          "text": "Display form"
+        },
+        {
+          "id": "C",
+          "text": "Timer"
+        },
+        {
+          "id": "D",
+          "text": "Toggle"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 332,
+      "questionNo": 332,
+      "question": "A company is using Microsoft Power Platform services to enhance business productivity. You need to identify the business productivity scenarios that Copilot can solve. Which three benefits can Copilot provide? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Allow model-driven app users to ask questions about their data."
+        },
+        {
+          "id": "B",
+          "text": "Create canvas apps by describing what makers want to build."
+        },
+        {
+          "id": "C",
+          "text": "Trigger an automated Power Automate flow."
+        },
+        {
+          "id": "D",
+          "text": "Explain the functionality of an existing Power Automate flow."
+        },
+        {
+          "id": "E",
+          "text": "Read an image of a business card and extract text values."
+        }
+      ],
+      "answer": [
+        "A",
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 337,
+      "questionNo": 337,
+      "question": "A company is evaluating the capabilities in Microsoft Power Platform. The company requires native integration with an existing Bootstrap template to facilitate a responsive design across devices. You need to recommend the service that facilitates the integration. Which service should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Pages"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps"
+        },
+        {
+          "id": "D",
+          "text": "Copilot"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 338,
+      "questionNo": 338,
+      "question": "You are creating a Power Pages site for a company. The company requires a chart on a page to visualize data held within Dataverse. You need to add the chart to the page. Which two features can you use? Each correct answer presents a complete solution. (Choose two.)",
+      "options": [
+        {
+          "id": "A",
+          "text": "Canvas app pie chart control"
+        },
+        {
+          "id": "B",
+          "text": "Power BI tile"
+        },
+        {
+          "id": "C",
+          "text": "Canvas app line chart control"
+        },
+        {
+          "id": "D",
+          "text": "Model-driven app chart"
+        }
+      ],
+      "answer": [
+        "B",
+        "D"
+      ],
+      "multi": true
+    },
+    {
+      "id": 339,
+      "questionNo": 339,
+      "question": "An enterprise company is evaluating the Microsoft Power Platform security model. You need to identify the lowest possible level that the authorization can be applied against. Which level should you identify?",
+      "options": [
+        {
+          "id": "A",
+          "text": "tenant"
+        },
+        {
+          "id": "B",
+          "text": "row"
+        },
+        {
+          "id": "C",
+          "text": "environment"
+        },
+        {
+          "id": "D",
+          "text": "column"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 341,
+      "questionNo": 341,
+      "question": "You are using Microsoft Copilot Studio to create a copilot for your Power Pages. You need the copilot to start from the beginning of the conversation if user input is unrecognized. What should you configure?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Trigger"
+        },
+        {
+          "id": "B",
+          "text": "Fallback topic"
+        },
+        {
+          "id": "C",
+          "text": "AI features"
+        },
+        {
+          "id": "D",
+          "text": "Error message"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    },
+    {
+      "id": 342,
+      "questionNo": 342,
+      "question": "You plan to deploy a Power Pages website to manage common customer requests. You plan to use Copilot capabilities to improve site management productivity. You need to use the Copilot features that are available in Power Pages design studio. Which two features should you use? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Generate copy text."
+        },
+        {
+          "id": "B",
+          "text": "Create an automation that triggers when a user submits data."
+        },
+        {
+          "id": "C",
+          "text": "Create AI-generated images."
+        },
+        {
+          "id": "D",
+          "text": "Create a webchat interface for site users."
+        },
+        {
+          "id": "E",
+          "text": "Create an interface based on a short description."
+        }
+      ],
+      "answer": [
+        "D",
+        "E"
+      ],
+      "multi": true
+    },
+    {
+      "id": 344,
+      "questionNo": 344,
+      "question": "You are creating a dashboard in the Power BI service. You need to identify where you can find visuals to pin to your dashboard. From which two components can you pin visuals? Each correct answer presents a complete solution.",
+      "options": [
+        {
+          "id": "A",
+          "text": "Q&A"
+        },
+        {
+          "id": "B",
+          "text": "Report"
+        },
+        {
+          "id": "C",
+          "text": "Dataverse"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate"
+        },
+        {
+          "id": "E",
+          "text": "Semantic model"
+        }
+      ],
+      "answer": [
+        "A",
+        "B"
+      ],
+      "multi": true
+    },
+    {
+      "id": 345,
+      "questionNo": 345,
+      "question": "Your coworkers create Power Apps and Power Automate flows to improve business processes. You need to prevent your coworkers from using the YouTube connector in the company tenant. What should you create?",
+      "options": [
+        {
+          "id": "A",
+          "text": "security role"
+        },
+        {
+          "id": "B",
+          "text": "dataflow"
+        },
+        {
+          "id": "C",
+          "text": "business rule"
+        },
+        {
+          "id": "D",
+          "text": "data loss prevention policy"
+        }
+      ],
+      "answer": [
+        "D"
+      ],
+      "multi": false
+    },
+    {
+      "id": 346,
+      "questionNo": 346,
+      "question": "A company uses Dynamics 365 Sales. The company requires an interface for back-office staff. The solution must meet the following requirements: •Existing custom tables must be visible in the interface. •The user experience must resemble that of the existing Dynamics 365 Sales app. •Users must have the ability to edit or create new data. You need to recommend a Power Platform capability that can achieve these requirements with the least configuration effort. Which capability should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI report"
+        },
+        {
+          "id": "B",
+          "text": "Power Pages site"
+        },
+        {
+          "id": "C",
+          "text": "Model-driven app"
+        },
+        {
+          "id": "D",
+          "text": "Canvas app"
+        }
+      ],
+      "answer": [
+        "C"
+      ],
+      "multi": false
+    },
+    {
+      "id": 348,
+      "questionNo": 348,
+      "question": "A company plans to implement a ticketing application using Microsoft Dataverse. The company plans to deploy a portal that connects to the ticketing application. Customers must be able to log in and access details about open cases. You need to identify the Microsoft Power Platform capability that provides the required functionality. Which solution should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Pages site"
+        },
+        {
+          "id": "B",
+          "text": "Model-driven app"
+        },
+        {
+          "id": "C",
+          "text": "Canvas app"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 352,
+      "questionNo": 352,
+      "question": "A company uses Dynamics 365 Supply Chain Management. You need to use Microsoft Flow to automate the process of receiving and tracking raw materials. Which type of connector should you use?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Common Data Service"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 for Fin & Ops"
+        },
+        {
+          "id": "D",
+          "text": "Dynamic Signal"
+        }
+      ],
+      "answer": [
+        "A"
+      ],
+      "multi": false
+    },
+    {
+      "id": 353,
+      "questionNo": 353,
+      "question": "A company has a Power Apps app that is used by most employees. The company is expanding to other countries/regions. You need to recommend a solution to translate text generated within the Power Apps in near real-time. What should you recommend?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Azure Synapse Analytics"
+        },
+        {
+          "id": "B",
+          "text": "Microsoft Azure Cognitive Services"
+        },
+        {
+          "id": "C",
+          "text": "Common Data Service connector"
+        },
+        {
+          "id": "D",
+          "text": "Power BI"
+        }
+      ],
+      "answer": [
+        "B"
+      ],
+      "multi": false
+    }
+  ]
+}
