@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, useEffect } from "react";
 import Quiz from "./components/Quiz";
 import questionsData from "./data/questions.json";
 
@@ -9,6 +9,15 @@ export default function App() {
   const [quizCount, setQuizCount] = useState<number>(40);
   const [seed, setSeed] = useState<number>(() => Date.now());
   const [started, setStarted] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
+    const saved = localStorage.getItem("theme");
+    return saved ? saved === "dark" : true; // default to dark
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", isDarkMode ? "dark" : "light");
+    localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+  }, [isDarkMode]);
 
   const clampedCount = useMemo(() => {
     const n = Number.isFinite(quizCount) ? Math.floor(quizCount) : 40;
@@ -25,6 +34,14 @@ export default function App() {
           </p>
         </div>
         <div className="right">
+          <button
+            className="theme-toggle"
+            onClick={() => setIsDarkMode(!isDarkMode)}
+            aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+            title={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+          >
+            {isDarkMode ? "☀️" : "🌙"}
+          </button>
           <a className="link" href="https://learn.microsoft.com/credentials/certifications/exams/pl-900/" target="_blank" rel="noreferrer">
             Exam info
           </a>
