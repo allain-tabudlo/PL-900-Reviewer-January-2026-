@@ -7,4 +7,5 @@ export type Question = {
   options: { id: OptionId; text: string }[];
   answer: OptionId[];      // correct letters
   multi: boolean;          // multi-select if true
+  explanation?: string;    // optional explanation field
 };

@@ -189,6 +189,13 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
                     <span className="muted">Correct:</span> <b>{right.join(", ")}</b>
                   </div>
                 </div>
+                {/* Add explanation - shown for both correct and wrong answers */}
+                {current.explanation && (
+                  <div className="explanation" style={{ marginTop: "1rem", padding: "1rem", backgroundColor: "rgba(0,0,0,0.05)", borderRadius: "4px" }}>
+                    <div style={{ fontWeight: "600", marginBottom: "0.5rem" }}>Explanation:</div>
+                    <div style={{ whiteSpace: "pre-wrap", lineHeight: "1.6" }}>{current.explanation}</div>
+                  </div>
+                )}
                 {!isCorrect && (
                   <div className="reviewOptions">
                     {current.options.map((o) => {
@@ -246,7 +253,13 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
                       <span className="muted">Correct:</span> <b>{right.join(", ")}</b>
                     </div>
                   </div>
-
+                  {/* Add explanation in final review too */}
+                  {q.explanation && (
+                    <div className="explanation" style={{ marginTop: "1rem", padding: "1rem", backgroundColor: "rgba(0,0,0,0.05)", borderRadius: "4px" }}>
+                      <div style={{ fontWeight: "600", marginBottom: "0.5rem" }}>Explanation:</div>
+                      <div style={{ whiteSpace: "pre-wrap", lineHeight: "1.6" }}>{q.explanation}</div>
+                    </div>
+                  )}
                   {!isCorrect && (
                     <div className="reviewOptions">
                       {q.options.map((o) => {
