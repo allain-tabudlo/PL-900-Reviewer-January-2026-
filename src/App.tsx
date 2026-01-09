@@ -98,7 +98,7 @@ export default function App() {
                   type="number"
                   min={0}
                   max={23}
-                  value={hours.toString().slice(0, 2)}
+                  value={hours === 0 ? "" : hours.toString().slice(0, 2)}
                   onChange={(e) => {
                     const raw = e.target.value.slice(0, 2); // max 2 digits
                     const n = parseInt(raw || "0", 10);
@@ -112,7 +112,7 @@ export default function App() {
                   type="number"
                   min={0}
                   max={59}
-                  value={minutes.toString().slice(0, 2)}
+                  value={minutes === 0 ? "" : minutes.toString().slice(0, 2)}
                   onChange={(e) => {
                     const raw = e.target.value.slice(0, 2); // max 2 digits
                     const n = parseInt(raw || "0", 10);
