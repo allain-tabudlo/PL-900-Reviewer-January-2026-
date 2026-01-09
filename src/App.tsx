@@ -14,10 +14,25 @@ export default function App() {
     return saved ? saved === "dark" : true; // default to dark
   });
 
+  // Apply theme to <html> and persist preference
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", isDarkMode ? "dark" : "light");
     localStorage.setItem("theme", isDarkMode ? "dark" : "light");
   }, [isDarkMode]);
+
+  useEffect(() => {
+    const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+      const message = "Are you sure you want to reload the site?";
+      event.preventDefault();
+      event.returnValue = message; // Most browsers ignore custom text but still show a confirm dialog
+      return message;
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, []);
 
   const clampedCount = useMemo(() => {
     const n = Number.isFinite(quizCount) ? Math.floor(quizCount) : 40;
