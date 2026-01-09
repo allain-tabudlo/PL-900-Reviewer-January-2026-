@@ -5,6 +5,8 @@ This is a **local** practice exam web app (React + Vite). It loads questions fro
 ## Features
 - Randomly picks **40 questions** (configurable) from the question bank
 - Supports **single-answer** and **multi-select** questions
+- Checks the answer when you click **Next** (shows correct/wrong)
+- Exit anytime to show results based on **answered questions only**
 - Shows your **score** on submit
 - Shows **correct answers** + your answers (review mode)
 

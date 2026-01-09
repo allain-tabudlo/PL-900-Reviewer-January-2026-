@@ -125,3 +125,51 @@ body {
 .miniOpt.correct { border-color: rgba(52,211,153,0.40); }
 .miniOpt.wrong { border-color: rgba(248,113,113,0.45); }
 .miniOpt.picked { background: rgba(255,255,255,0.08); }
+
+
+/* --- v2 additions --- */
+.banner {
+  margin: 14px 0 6px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.22);
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: 700;
+}
+.banner.ok { border-color: rgba(52,211,153,0.40); }
+.banner.bad { border-color: rgba(248,113,113,0.45); }
+.banner.skip { border-color: rgba(255,255,255,0.18); }
+
+.option.revealCorrect { border-color: rgba(52,211,153,0.45); background: rgba(52,211,153,0.10); }
+.option.revealWrong { border-color: rgba(248,113,113,0.45); background: rgba(248,113,113,0.10); }
+
+.revealMeta {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.18);
+}
+
+.resultsTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: start;
+}
+
+.pill.skip {
+  background: rgba(255,255,255,0.10);
+  color: rgba(255,255,255,0.85);
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+.reviewItem.skip { border-color: rgba(255,255,255,0.18); }
