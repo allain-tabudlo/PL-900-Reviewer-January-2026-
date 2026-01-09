@@ -75,7 +75,7 @@ export default function App() {
       )}
 
       <footer className="footer muted">
-        Built for personal practice (local app). Questions source: your uploaded reviewer PDF.
+        Built for personal practice
       </footer>
     </div>
   );
