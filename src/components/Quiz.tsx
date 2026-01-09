@@ -29,7 +29,8 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
 
   const [idx, setIdx] = useState(0);
   const [answers, setAnswers] = useState<AnswerMap>({});
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState(false); // overall exam submitted
+  const [questionSubmitted, setQuestionSubmitted] = useState(false); // per-question submit
 
   const current = quizQuestions[idx];
 
@@ -66,6 +67,27 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
 
   function go(n: number) {
     setIdx((v) => Math.min(Math.max(0, v + n), quizQuestions.length - 1));
+    setQuestionSubmitted(false); // reset per-question submit on navigation
+  }
+
+  function handleSubmitQuestion() {
+    setQuestionSubmitted(true);
+  }
+
+  function handleNext() {
+    if (idx < quizQuestions.length - 1) {
+      go(1);
+    } else {
+      setSubmitted(true);
+    }
+  }
+
+  function handleRetry() {
+    setSubmitted(false);
+    setQuestionSubmitted(false);
+    setAnswers({});
+    setIdx(0);
+    onNewRandom();
   }
 
   return (
@@ -84,8 +106,14 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
         </div>
 
         <div className="quizActions">
-          <button className="btn ghost" onClick={onExit} disabled={submitted}>
-            Exit
+          <button
+            className="btn ghost"
+            onClick={() => {
+              if (!submitted) setSubmitted(true); // show score
+              else onExit();                      // if already submitted, then exit
+            }}
+          >
+            {submitted ? "Exit" : "End Exam"}
           </button>
           <button className="btn ghost" onClick={onNewRandom} disabled={submitted}>
             New Random Set
@@ -103,7 +131,7 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
               name={"q_" + normalizeKey(current)}
               checked={selected(o.id)}
               onChange={() => setOption(o.id)}
-              disabled={submitted}
+              disabled={submitted || questionSubmitted}
             />
             <span className="optLetter">{o.id}</span>
             <span className="optText">{o.text}</span>
@@ -112,27 +140,80 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
       </div>
 
       <div className="nav">
-        <button className="btn ghost" onClick={() => go(-1)} disabled={idx === 0}>
+        <button className="btn ghost" onClick={() => go(-1)} disabled={idx === 0 || submitted}>
           Previous
         </button>
 
         {!submitted ? (
-          idx < quizQuestions.length - 1 ? (
-            <button className="btn" onClick={() => go(1)}>
-              Next
+          !questionSubmitted ? (
+            <button className="btn" onClick={handleSubmitQuestion} disabled={(answers[normalizeKey(current)] ?? []).length === 0}>
+              Submit
             </button>
           ) : (
-            <button className="btn" onClick={() => setSubmitted(true)}>
-              Submit
+            <button className="btn" onClick={handleNext}>
+              {idx < quizQuestions.length - 1 ? "Next" : "Finish Exam"}
             </button>
           )
         ) : (
-          <button className="btn" onClick={onNewRandom}>
+          <button className="btn" onClick={handleRetry}>
             Retry (new random)
           </button>
         )}
       </div>
 
+      {/* Show feedback for current question only after submit */}
+      {!submitted && questionSubmitted && (
+        <div className="results">
+          {(() => {
+            const key = normalizeKey(current);
+            const user = (answers[key] ?? []).sort();
+            const right = (current.answer ?? []).sort();
+            const isCorrect = setsEqual(user, right);
+
+            return (
+              <div className={"reviewItem " + (isCorrect ? "ok" : "bad")}>
+                <div className="reviewHead">
+                  <div className="muted small">
+                    {idx + 1}. {current.questionNo ? `Q#${current.questionNo}` : ""}
+                  </div>
+                  <div className={"pill " + (isCorrect ? "ok" : "bad")}>
+                    {isCorrect ? "Correct" : "Wrong"}
+                  </div>
+                </div>
+                <div className="reviewQ">{current.question}</div>
+                <div className="reviewA">
+                  <div>
+                    <span className="muted">Your answer:</span> <b>{user.length ? user.join(", ") : "—"}</b>
+                  </div>
+                  <div>
+                    <span className="muted">Correct:</span> <b>{right.join(", ")}</b>
+                  </div>
+                </div>
+                {!isCorrect && (
+                  <div className="reviewOptions">
+                    {current.options.map((o) => {
+                      const userPicked = user.includes(o.id);
+                      const correct = right.includes(o.id);
+                      const cls =
+                        "miniOpt " +
+                        (correct ? "correct " : "") +
+                        (userPicked && !correct ? "wrong " : "") +
+                        (userPicked && correct ? "picked " : "");
+                      return (
+                        <div key={o.id} className={cls}>
+                          <span className="optLetter">{o.id}</span> {o.text}
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+            );
+          })()}
+        </div>
+      )}
+
+      {/* Show final review after exam is submitted */}
       {submitted && (
         <div className="results">
           <h3>
