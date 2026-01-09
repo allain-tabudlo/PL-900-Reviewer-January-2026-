@@ -9,20 +9,44 @@ export default function App() {
   const [quizCount, setQuizCount] = useState<number>(40);
   const [seed, setSeed] = useState<number>(() => Date.now());
   const [started, setStarted] = useState(false);
+  const [hours, setHours] = useState<number>(1);
+  const [minutes, setMinutes] = useState<number>(30);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem("theme");
     return saved ? saved === "dark" : true; // default to dark
   });
 
+  // Apply theme to <html> and persist preference
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", isDarkMode ? "dark" : "light");
     localStorage.setItem("theme", isDarkMode ? "dark" : "light");
   }, [isDarkMode]);
 
+  useEffect(() => {
+    const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+      const message = "Are you sure you want to reload the site?";
+      event.preventDefault();
+      event.returnValue = message; // Most browsers ignore custom text but still show a confirm dialog
+      return message;
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+    };
+  }, []);
+
   const clampedCount = useMemo(() => {
     const n = Number.isFinite(quizCount) ? Math.floor(quizCount) : 40;
     return Math.max(1, Math.min(n, total));
   }, [quizCount, total]);
+
+  const durationSeconds = useMemo(() => {
+    const safeHours = Number.isFinite(hours) ? Math.min(23, Math.max(0, Math.floor(hours))) : 0;
+    const safeMinutes = Number.isFinite(minutes) ? Math.min(59, Math.max(0, Math.floor(minutes))) : 0;
+    const totalSeconds = safeHours * 3600 + safeMinutes * 60;
+    return Math.max(60, totalSeconds || 0);
+  }, [hours, minutes]);
 
   return (
     <div className="app">
@@ -66,6 +90,42 @@ export default function App() {
           </div>
 
           <div className="row">
+            <label className="label">
+              Exam timer (default 1 hour 30 minutes)
+              <div style={{ display: "flex", gap: 8 }}>
+                <input
+                  className="input"
+                  type="number"
+                  min={0}
+                  max={23}
+                  value={hours === 0 ? "" : hours.toString().slice(0, 2)}
+                  onChange={(e) => {
+                    const raw = e.target.value.slice(0, 2); // max 2 digits
+                    const n = parseInt(raw || "0", 10);
+                    const clamped = Math.min(23, Math.max(0, Number.isNaN(n) ? 0 : n));
+                    setHours(clamped);
+                  }}
+                  placeholder="Hours"
+                />
+                <input
+                  className="input"
+                  type="number"
+                  min={0}
+                  max={59}
+                  value={minutes === 0 ? "" : minutes.toString().slice(0, 2)}
+                  onChange={(e) => {
+                    const raw = e.target.value.slice(0, 2); // max 2 digits
+                    const n = parseInt(raw || "0", 10);
+                    const clamped = Math.min(59, Math.max(0, Number.isNaN(n) ? 0 : n));
+                    setMinutes(clamped);
+                  }}
+                  placeholder="Minutes"
+                />
+              </div>
+            </label>
+          </div>
+
+          <div className="row">
             <button
               className="btn"
               onClick={() => {
@@ -88,6 +148,7 @@ export default function App() {
           count={clampedCount}
           onExit={() => setStarted(false)}
           onNewRandom={() => setSeed(Date.now())}
+          durationSeconds={durationSeconds}
         />
       )}
 
