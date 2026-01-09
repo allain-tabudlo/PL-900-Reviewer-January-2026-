@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { OptionId, Question } from "../types";
 import { sampleWithoutReplacement } from "../lib/shuffle";
 
@@ -7,6 +7,7 @@ type Props = {
   count: number;
   onExit: () => void;
   onNewRandom: () => void;
+  durationSeconds: number;
 };
 
 type AnswerMap = Record<string, OptionId[]>;
@@ -23,7 +24,7 @@ function setsEqual(a: string[], b: string[]) {
   return true;
 }
 
-export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props) {
+export default function Quiz({ allQuestions, count, onExit, onNewRandom, durationSeconds }: Props) {
   const seed = useMemo(() => Date.now(), []);
   const quizQuestions = useMemo(() => sampleWithoutReplacement(allQuestions, count, seed), [allQuestions, count, seed]);
 
@@ -31,6 +32,7 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
   const [answers, setAnswers] = useState<AnswerMap>({});
   const [submitted, setSubmitted] = useState(false); // overall exam submitted
   const [questionSubmitted, setQuestionSubmitted] = useState(false); // per-question submit
+  const [remainingSeconds, setRemainingSeconds] = useState<number>(durationSeconds);
 
   const current = quizQuestions[idx];
 
@@ -46,6 +48,40 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
   }, [answers, quizQuestions]);
 
   const progress = Math.round(((idx + 1) / quizQuestions.length) * 100);
+
+  // Reset timer when a new quiz instance is created
+  useEffect(() => {
+    setRemainingSeconds(durationSeconds);
+  }, [durationSeconds]);
+
+  // Countdown timer: auto-submit exam when time runs out
+  useEffect(() => {
+    if (submitted) return;
+
+    const id = window.setInterval(() => {
+      setRemainingSeconds((prev) => {
+        if (prev <= 1) {
+          window.clearInterval(id);
+          setSubmitted(true);
+          setQuestionSubmitted(false);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => window.clearInterval(id);
+  }, [submitted]);
+
+  function formatTime(total: number) {
+    const h = Math.floor(total / 3600);
+    const m = Math.floor((total % 3600) / 60);
+    const s = total % 60;
+    const hh = String(h).padStart(2, "0");
+    const mm = String(m).padStart(2, "0");
+    const ss = String(s).padStart(2, "0");
+    return `${hh}:${mm}:${ss}`;
+  }
 
   function setOption(letter: OptionId) {
     const key = normalizeKey(current);
@@ -106,6 +142,9 @@ export default function Quiz({ allQuestions, count, onExit, onNewRandom }: Props
         </div>
 
         <div className="quizActions">
+          <div className="muted small" style={{ marginRight: 8 }}>
+            Time left: <b>{formatTime(remainingSeconds)}</b>
+          </div>
           <button
             className="btn ghost"
             onClick={() => {

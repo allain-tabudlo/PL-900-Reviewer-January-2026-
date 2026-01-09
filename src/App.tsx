@@ -9,6 +9,8 @@ export default function App() {
   const [quizCount, setQuizCount] = useState<number>(40);
   const [seed, setSeed] = useState<number>(() => Date.now());
   const [started, setStarted] = useState(false);
+  const [hours, setHours] = useState<number>(1);
+  const [minutes, setMinutes] = useState<number>(30);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     const saved = localStorage.getItem("theme");
     return saved ? saved === "dark" : true; // default to dark
@@ -38,6 +40,13 @@ export default function App() {
     const n = Number.isFinite(quizCount) ? Math.floor(quizCount) : 40;
     return Math.max(1, Math.min(n, total));
   }, [quizCount, total]);
+
+  const durationSeconds = useMemo(() => {
+    const h = Number.isFinite(hours) ? Math.max(0, Math.floor(hours)) : 0;
+    const m = Number.isFinite(minutes) ? Math.max(0, Math.floor(minutes)) : 0;
+    const totalSeconds = h * 3600 + m * 60;
+    return Math.max(60, totalSeconds || 0);
+  }, [hours, minutes]);
 
   return (
     <div className="app">
@@ -81,6 +90,32 @@ export default function App() {
           </div>
 
           <div className="row">
+            <label className="label">
+              Exam timer (default 1 hour 30 minutes)
+              <div style={{ display: "flex", gap: 8 }}>
+                <input
+                  className="input"
+                  type="number"
+                  min={0}
+                  max={12}
+                  value={hours}
+                  onChange={(e) => setHours(parseInt(e.target.value || "0", 10))}
+                  placeholder="Hours"
+                />
+                <input
+                  className="input"
+                  type="number"
+                  min={0}
+                  max={59}
+                  value={minutes}
+                  onChange={(e) => setMinutes(parseInt(e.target.value || "0", 10))}
+                  placeholder="Minutes"
+                />
+              </div>
+            </label>
+          </div>
+
+          <div className="row">
             <button
               className="btn"
               onClick={() => {
@@ -103,6 +138,7 @@ export default function App() {
           count={clampedCount}
           onExit={() => setStarted(false)}
           onNewRandom={() => setSeed(Date.now())}
+          durationSeconds={durationSeconds}
         />
       )}
 
