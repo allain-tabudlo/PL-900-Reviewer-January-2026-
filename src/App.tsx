@@ -42,9 +42,9 @@ export default function App() {
   }, [quizCount, total]);
 
   const durationSeconds = useMemo(() => {
-    const h = Number.isFinite(hours) ? Math.max(0, Math.floor(hours)) : 0;
-    const m = Number.isFinite(minutes) ? Math.max(0, Math.floor(minutes)) : 0;
-    const totalSeconds = h * 3600 + m * 60;
+    const safeHours = Number.isFinite(hours) ? Math.min(23, Math.max(0, Math.floor(hours))) : 0;
+    const safeMinutes = Number.isFinite(minutes) ? Math.min(59, Math.max(0, Math.floor(minutes))) : 0;
+    const totalSeconds = safeHours * 3600 + safeMinutes * 60;
     return Math.max(60, totalSeconds || 0);
   }, [hours, minutes]);
 
@@ -97,9 +97,14 @@ export default function App() {
                   className="input"
                   type="number"
                   min={0}
-                  max={12}
-                  value={hours}
-                  onChange={(e) => setHours(parseInt(e.target.value || "0", 10))}
+                  max={23}
+                  value={hours.toString().slice(0, 2)}
+                  onChange={(e) => {
+                    const raw = e.target.value.slice(0, 2); // max 2 digits
+                    const n = parseInt(raw || "0", 10);
+                    const clamped = Math.min(23, Math.max(0, Number.isNaN(n) ? 0 : n));
+                    setHours(clamped);
+                  }}
                   placeholder="Hours"
                 />
                 <input
@@ -107,8 +112,13 @@ export default function App() {
                   type="number"
                   min={0}
                   max={59}
-                  value={minutes}
-                  onChange={(e) => setMinutes(parseInt(e.target.value || "0", 10))}
+                  value={minutes.toString().slice(0, 2)}
+                  onChange={(e) => {
+                    const raw = e.target.value.slice(0, 2); // max 2 digits
+                    const n = parseInt(raw || "0", 10);
+                    const clamped = Math.min(59, Math.max(0, Number.isNaN(n) ? 0 : n));
+                    setMinutes(clamped);
+                  }}
                   placeholder="Minutes"
                 />
               </div>
